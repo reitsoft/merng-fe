@@ -19,7 +19,7 @@ const authLink = setContext(() => {
 });
 
 const httpLink = createHttpLink({
-  uri: "http://localhost:5000 ",
+  uri: "https://blooming-depths-86709.herokuapp.com/",
 });
 
 const client = new ApolloClient({
